@@ -6,11 +6,11 @@
     margin: 20px;
   }
 
-  .card:hover {
+.card:hover {
     box-shadow: 0 0 20px black; 
   }
 
-  .title{
+.title{
     color: black;
     /* margin: 200 px; */
     font-size: 36px;
@@ -20,21 +20,30 @@
     font-family: Arial, Helvetica, sans-serif
   }
 
-  .fa-color{
+.fa-color{
       color: #f58221;
   }
-  .price{
+.ic-style{
+    margin-top: 15px; 
+    font-size:12px;
+  }
+
+.price{
       font-size: 26px;
       padding-top: 12px;
-      /* margin-top: -100 px; */
       font-family: Arial, Helvetica, sans-serif
 
   }
 
-  .point{
+.point{
       font: 20px;
       margin-left: 20 px;
       font-weight: bold;
       font-family: Arial, Helvetica, sans-serif
   }
 
+.para{
+    color: #787786;
+    font-weight:bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
