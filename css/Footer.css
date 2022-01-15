@@ -1,0 +1,35 @@
+.footer{
+    width: 100%;
+    height: 300px;
+    background-color:#131324;
+    text-align: center;
+}
+
+
+.foo-title{
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-top: 50px;
+
+}
+
+.copy{
+    color:#eaeaea;
+    padding-top: -50px;
+}
+
+.fab{
+    text-decoration: none;
+    border-radius: 50%;
+    color: white;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-top: 20px;
+    border: 10px solid transparent;
+    background-color: #23213c;
+}
+
+.fab:hover {
+    opacity: 0.7;
+}
