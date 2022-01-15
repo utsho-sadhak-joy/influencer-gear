@@ -1,0 +1,37 @@
+.flexbox {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+  }
+  
+  @media(min-width:576px) {
+    .flexbox {
+      flex-flow: row wrap;
+    }
+    .flexbox>.left {
+      order: 1;
+    }
+    .flexbox>.right {
+      order: 2;
+    }
+    .flexbox>.center {
+      order: 3;
+    }
+  }
+  
+  
+  @media(min-width:768px) {
+    .flexbox {
+      flex-flow: row nowrap;
+    }
+    .flexbox>.left {
+      order: 1;
+    }
+    .flexbox>.center {
+      order: 2;
+    }
+    .flexbox>.right {
+      order: 3;
+    }
+  }
