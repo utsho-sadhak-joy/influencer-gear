@@ -35,3 +35,18 @@
       order: 3;
     }
   }
+
+  .crad-header{
+    color: black; 
+    font-size:28px;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif; 
+    text-align:center;
+  }
+
+  .btn-style{
+    text-align:right; 
+    margin-right: 120px;
+    color:#e44f7a;
+    font-size:18px;
+  }
